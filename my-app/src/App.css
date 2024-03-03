@@ -1,0 +1,129 @@
+*{
+  
+  margin: 0;
+  padding: 0;
+ background-color:rgb(42, 41, 41);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+  background-color: rgb(42, 41, 41);
+}
+image.container-fluid{
+height: 40px;
+width: 40px;
+border-radius: 50%;
+}
+.searchBar
+{
+  margin-bottom: 25px;
+  width: fit-content;
+  display: flex;
+}
+#homenavitem{
+  color: aliceblue;
+  
+}
+
+#songs{
+  width: fit-content;
+  padding: 10px;
+  color: aliceblue;
+}
+#bottom{
+  margin-top: 100px;
+  bottom:0;
+  min-width: fit-content;
+  min-height: 15vh;
+  position: sticky;
+  background-color: black;
+  display: flexbox;
+  
+  color: black;
+}
+#progressbar{
+  
+  margin-left: 30%;
+  background-color: black;
+  width: 50vw;
+}
+#icons{
+  padding: 2px;
+ 
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: black;
+  
+}
+#progressbar{
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+.sideicons{
+  float: right;
+  background-color: black;
+  color: black;
+  display: flexbox;
+ 
+}
+
+
+#musicplayer{
+  position: absolute;
+  right: 0;
+  width: 300px;
+  background-color: black;
+  min-height: 85vh;
+  bottom:0;
+
+}
+#songs{
+width: 350px;
+  max-height: 82vh;
+  overflow-y: scroll;
+ 
+  display: flex;
+}
+.homenavitems{
+  display: flex;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 8px;
+padding: 8px;
+}
+#homepage{
+  color: aliceblue;
+  margin-left: 310px;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#spotifycarousel1{
+  height: 100px;
+  width: 600px;
+}
+#spotifycarousel2{
+  height: 100px;
+  width: 600px;
+}
+#maincarousel{
+  display: flex;
+  justify-content: center;
+ 
+  
+}
+#row2{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.overview{
+  display: flex;
+position: sticky;
+}
