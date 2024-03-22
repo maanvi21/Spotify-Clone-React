@@ -2,13 +2,13 @@
   
   margin: 0;
   padding: 0;
- background-color:rgb(42, 41, 41);
+ background-color:rgb(26, 25, 25);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 body{
-  background-color: rgb(42, 41, 41);
+  background-color: rgb(26, 25, 25);
 }
 image.container-fluid{
 height: 40px;
@@ -46,22 +46,26 @@ border-radius: 50%;
   
   margin-left: 30%;
   background-color: black;
-  width: 50vw;
+  width: 45vw;
 }
-#icons{
-  padding: 2px;
- 
+.icons{
   display: flexbox;
-  justify-content: center;
-  align-items: center;
+  bottom:0;
+ margin-left: 650px;
   background-color: black;
-  color: black;
+  cursor: pointer;
+  :hover{
+    opacity: 70%;
+    transition-duration: 2ms;
+  }
+
+  
   
 }
-#progressbar{
+
+.progressbar{
   display: flexbox;
-  justify-content: center;
-  align-items: center;
+  margin-top: 20px;
 }
 .sideicons{
   float: right;
@@ -97,29 +101,6 @@ padding: 8px;
 }
 #homepage{
   color: aliceblue;
-  margin-left: 310px;
-  justify-content: center;
-  align-items: center;
- 
-}
-
-#spotifycarousel1{
-  height: 100px;
-  width: 600px;
-}
-#spotifycarousel2{
-  height: 100px;
-  width: 600px;
-}
-#maincarousel{
-  display: flex;
-  justify-content: center;
- 
-  
-}
-#row2{
-  display: flex;
-  justify-content: center;
   
 }
 
@@ -127,3 +108,111 @@ padding: 8px;
   display: flex;
 position: sticky;
 }
+.row1{
+  display: flex;
+  margin-bottom:10px;
+  margin-inline-start: 8px;
+  padding: 8px,8px,8px;
+  width: 600px;
+}
+.row2{
+  display: flex;
+  margin-bottom:10px;
+  margin-inline-start: 8px;
+  padding: 8px,8px,8px;
+  width: 600px;
+}
+#imga{
+  margin-left:28px;
+}
+#imgb{
+   margin-left:28px;
+}
+.homepagebutt{
+  display: flex;
+  border-radius:50% ;
+  padding:20px;
+
+}
+#butt1{
+  cursor: pointer;
+  border-radius: 16px;
+  margin-left:10px;
+}
+#butt2{
+  margin-left:10px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+#butt3{
+  margin-left:10px;
+  cursor: pointer;
+  border-radius: 16px;
+  
+}
+#img1{
+  width:200px;
+  height: 45px;
+}
+#img3{
+  width:200px;
+  height: 45px;
+}
+#img4{
+  width:200px;
+  height: 45px;
+}
+#img5{
+  width:200px;
+  height: 45px;
+}
+#img6{
+  width:200px;
+  height: 45px;
+}
+#img8{
+  width:200px;
+  height: 45px;
+}
+.songTitle{
+  float:left;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  margin-top: 19px;
+  height: 40px;
+  width:350px;
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#img3{
+  margin-left: 20px;
+}
+#img4{
+  margin-left: 20px;
+}
+#img6{
+  margin-left: 20px;
+}
+
+#img8{
+  margin-left: 20px;
+}
+.img6spotify{
+  height: 300px;
+  width:350px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.lilsomething{
+  display: flex;
+}
+#tick{
+margin-top:6px;
+  margin-left: 150px;
+}
+#dots{
+  margin-left:10px;
+}
+
